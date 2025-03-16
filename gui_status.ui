@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Status</class>
+ <widget class="QWidget" name="Status">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>188</width>
+    <height>38</height>
+   </rect>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="anim_lbl">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+  <action name="act_page">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Page</string>
+   </property>
+   <property name="toolTip">
+    <string>Show the highlight's page number</string>
+   </property>
+  </action>
+  <action name="act_date">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Date</string>
+   </property>
+   <property name="toolTip">
+    <string>Show the highlight's date</string>
+   </property>
+  </action>
+  <action name="act_text">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Highlight</string>
+   </property>
+   <property name="toolTip">
+    <string>Show the highlight's text</string>
+   </property>
+  </action>
+  <action name="act_comment">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Comment</string>
+   </property>
+   <property name="toolTip">
+    <string>Show the highlight's comment</string>
+   </property>
+  </action>
+  <action name="act_chapter">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Chapter</string>
+   </property>
+   <property name="toolTip">
+    <string>Show the highlight's chapter</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+ <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
